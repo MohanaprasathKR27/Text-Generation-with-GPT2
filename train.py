@@ -3,7 +3,7 @@ import os
 
 MODEL_NAME = "gpt2"  
 DATA_FILE = "dataset.txt"
-OUTPUT_DIR = "./gpt2-finetuned"
+OUTPUT_DIR = "./TEXT-GENERATION-WITH-GPT2"
 
 tokenizer = GPT2Tokenizer.from_pretrained(MODEL_NAME)
 model = GPT2LMHeadModel.from_pretrained(MODEL_NAME)
